@@ -17,7 +17,8 @@ PHP event timing has never been simpler. Using TinyTimer you can easily start, s
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: $running is optional & defaults to true.
 <br/>
-<br/>	
+<br/>
+<br />	
 <b>Create a running timer</b>:
 
 =end html
