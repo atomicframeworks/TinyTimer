@@ -39,7 +39,6 @@ new TinyTimer( boolean $running* );
 A) Simply echo the TinyTimer (implicitly using overwritten __toString() function). <br />
 B) Or use getTime() function. <br />
 </blockquote>
-<br />
 
 =end html
 
@@ -48,6 +47,8 @@ B) Or use getTime() function. <br />
 	
 =begin html
 
+<br />
+<br />
 <b>Class Methods</b>:
 
 <br />
