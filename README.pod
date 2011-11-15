@@ -13,8 +13,10 @@ Create a new timer:
 	new TinyTimer( boolean $running );
 
 =begin html
-	
-*Note: $running is optional & defaults to true.
+
+<blockquote>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: $running is optional & defaults to true.
+</blockquote>
 
 =end html
 	
@@ -42,6 +44,7 @@ Methods:
 
 =begin html
 
+<blockquote>
 	start() - Start the timer. <br />
 	stop() - Stop the timer. <br />
 	restart() - Restart timing by resetting counter. <br />
@@ -50,7 +53,8 @@ Methods:
 	precision(int $aNumber ) - Set float precision. <br />
 	branch(string 'name', boolean $running ) - Create a new stopped timer and return parent. <br />
 	trunk(string 'name', boolean $running ) - Create and return a new stopped timer. <br />
-		*Note: $running is optional & defaults to false. <br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: $running is optional & defaults to false. <br />
+</blockquote>
 	
 =end html
 	
