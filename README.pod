@@ -83,7 +83,6 @@ You can create sub timers as properties of a parent timer using branch() and tru
 =begin html
 
 <br />
-<br />
 <b>Branch and Trunk Example</b>:
 
 =end html
