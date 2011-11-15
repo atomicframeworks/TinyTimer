@@ -12,10 +12,11 @@ Create a new timer:
 
 	new TinyTimer( boolean $running );
 
+=begin html
 	
+*Note: $running is optional & defaults to true.
 
-	*Note: $running is optional & defaults to true.
-
+=end html
 	
 Create a running timer:
 
