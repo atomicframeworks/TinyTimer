@@ -30,9 +30,9 @@ new TinyTimer( boolean $running* );
 
 	$time = new TinyTimer(false);
 
-
 =begin html
 
+<br />
 <br />
 <b>To get the time count</b>:
 <br />
