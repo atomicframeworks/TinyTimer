@@ -35,6 +35,8 @@ PHP event timing has never been simpler. Using TinyTimer you can easily start, s
 
 =begin html
 
+<br />
+<br />
 <b>To get the time count</b>:
 <br />
 <blockquote>
