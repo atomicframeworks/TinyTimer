@@ -1,6 +1,6 @@
 TinyTimer - A better PHP microtimer class.
 
-PHP event timing has never been simpler. Using TinyTimer you can easily start, stop, and even create multiple timers all at once. The trick to TinyTimers flexibility is in method chaining and two factory functions. 
+PHP event timing has never been simpler. Using TinyTimer you can easily start, stop, and even create multiple timers at once. The trick to TinyTimers flexibility is in method chaining and two factory functions. 
 
 
 Create a new timer:
