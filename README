@@ -46,4 +46,3 @@ Branch and Trunk Example:
 2)	$globalTimer->appStart
 3)	$globalTimer->appStart->eventA
 4)	$globalTimer->allStart->eventB
-
