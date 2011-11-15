@@ -10,7 +10,7 @@ PHP event timing has never been simpler. Using TinyTimer you can easily start, s
 <b>Create a new timer</b>:
 <br />
 <blockquote>
-	new TinyTimer( boolean $running* );
+new TinyTimer( boolean $running* );
 <blockquote>
 <br />
 
