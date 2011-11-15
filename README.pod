@@ -11,9 +11,12 @@ PHP event timing has never been simpler. Using TinyTimer you can easily start, s
 Create a new timer:
 
 	new TinyTimer( boolean $running );
-	
-	
-		*Note: $running is optional & defaults to true.
+
+	=pod	
+
+	*Note: $running is optional & defaults to true.
+
+	=cut
 	
 Running timer:
 
@@ -28,15 +31,20 @@ A) Simply echo the TinyTimer (implicitly using overwritten __toString() function
 B) Or use getTime() function.
 	
 Methods:
-	start() - Start the timer.
-	stop() - Stop the timer.
-	restart() - Restart timing by resetting counter.
-	clear() - Stop timing and clear counter.
-	getTime() - Return the timing in microseconds.
-	precision(int $aNumber ) - Set float precision.
-	branch(string 'name', boolean $running ) - Create a new stopped timer and return parent.
-	trunk(string 'name', boolean $running ) - Create and return a new stopped timer.
-		*Note: $running is optional & defaults to false.
+
+=begin html
+
+	start() - Start the timer. <br />
+	stop() - Stop the timer. <br />
+	restart() - Restart timing by resetting counter. <br />
+	clear() - Stop timing and clear counter. <br />
+	getTime() - Return the timing in microseconds. <br />
+	precision(int $aNumber ) - Set float precision. <br />
+	branch(string 'name', boolean $running ) - Create a new stopped timer and return parent. <br />
+	trunk(string 'name', boolean $running ) - Create and return a new stopped timer. <br />
+		*Note: $running is optional & defaults to false. <br />
+	
+=end html
 	
 Example:
 
