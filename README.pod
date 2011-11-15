@@ -12,24 +12,31 @@ Create a new timer:
 
 	new TinyTimer( boolean $running );
 
-	=pod	
+	
 
 	*Note: $running is optional & defaults to true.
 
-	=cut
 	
-Running timer:
+Create a running timer:
 
 	$time = new TinyTimer();
 	
-Stopped timer: 
+Create a stopped timer: 
 
 	$time = new TinyTimer(false);
 
 To get the time count:
-A) Simply echo the TinyTimer (implicitly using overwritten __toString() function).
-B) Or use getTime() function.
-	
+
+=begin html
+
+<blockquote>
+A) Simply echo the TinyTimer (implicitly using overwritten __toString() function). <br />
+B) Or use getTime() function. <br />
+</blockquote>
+
+
+=end html
+
 Methods:
 
 =begin html
