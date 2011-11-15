@@ -59,6 +59,8 @@ Class Methods:
 
 <bold>Simple Example</bold>:
 
+=end html
+
 	$time = new TinyTimer();	
 	sleep(1);
 	$time->stop();
