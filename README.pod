@@ -41,6 +41,12 @@ A) Simply echo the TinyTimer (implicitly using overwritten __toString() function
 B) Or use getTime() function. <br />
 </blockquote>
 <br />
+=end html
+
+	echo "Count: $time";
+	$count = $time->getTime();
+	
+=begin html
 
 <b>Class Methods</b>:
 
