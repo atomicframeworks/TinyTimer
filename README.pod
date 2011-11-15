@@ -67,7 +67,7 @@ B) Or use getTime() function. <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: $running is optional & defaults to false.
 <br />
 <br />
-
+<br />
 <b>Simple Example</b>:
 
 =end html
