@@ -16,7 +16,7 @@ To get the time count:
 A) Simply echo the TinyTimer (implicitly using overwritten __toString() function).
 B) Or use getTime() function.
 	
-Methods-
+Methods:
 	start() - Start the timer.
 	stop() - Stop the timer.
 	restart() - Restart timing by resetting counter. 
