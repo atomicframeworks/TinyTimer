@@ -1,0 +1,48 @@
+TinyTimer - A better PHP microtimer class.
+
+PHP event timing has never been simpler. Using TinyTimer you can easily start, stop, and even create multiple timers all at once. The trick to TinyTimers flexibility is in method chaining and two factory functions. 
+
+
+Create a new timer:
+	new TinyTimer( boolean $running-optional );
+							*Note: $running defaults to true
+	
+Running timer:
+	$time = new TinyTimer();
+Stopped timer: 
+	$time = new TinyTimer(false);
+
+To get the time count:
+A) Simply echo the TinyTimer (implicitly using overwritten __toString() function).
+B) Or use getTime() function.
+	
+	Methods-
+		start() - Start the timer.
+		stop() - Stop the timer.
+		restart() - Restart timing by resetting counter. 
+		clear() - Stop timing and clear counter.
+		getTime() - Return the timing in microseconds.
+		precision(int $aNumber ) - Set float precision.
+		branch(string 'name', boolean $running-optional ) - Create a new stopped timer and return parent. *Note: $running defaults to false
+		trunk(string 'name', boolean $running-optional ) - Create and return a new stopped timer. *Note: $running defaults to false
+		
+Example:
+
+	$time = new TinyTimer();	
+	sleep(1);
+	$time->stop();
+	sleep(2);
+	echo "time should be 1: $time";
+	
+You can create sub timers as properties of a parent timer using branch() and trunk(). Using trunk('name') will return the name property for chaining. Using these functions you can initialize a global timer and many sub timers at once. 
+
+Branch and Trunk Example:
+
+	$globalTimer = new newTinyTimer()->trunk('appStart')->branch('eventA')->branch('eventB');
+
+...would create 4 timers. 
+1)	$globalTimer
+2)	$globalTimer->appStart
+3)	$globalTimer->appStart->eventA
+4)	$globalTimer->allStart->eventB
+
