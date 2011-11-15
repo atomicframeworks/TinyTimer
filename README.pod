@@ -57,8 +57,10 @@ B) Or use getTime() function. <br />
 	precision(int $aNumber ) - Set float precision. <br />
 	branch(string 'name', boolean $running* ) - Create a new stopped timer and return parent. <br />
 	trunk(string 'name', boolean $running* ) - Create and return a new stopped timer. <br />
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: $running is optional & defaults to false. <br />
 </blockquote>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: $running is optional & defaults to false.
+<br />
 <br />
 
 <b>Simple Example</b>:
