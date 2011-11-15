@@ -57,7 +57,7 @@ Class Methods:
 </blockquote>
 <br />
 
-<bold>Simple Example</bold>:
+<b>Simple Example</b>:
 
 =end html
 
