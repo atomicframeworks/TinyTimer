@@ -4,12 +4,12 @@
 		private $timeStop;
 		private $runningTime;
 		private $precise = 5;
-		public function __construct($running = true) {	
-       		if($running === true){
-       			$this->start();
-       		}
-       		return $this;
-       	}
+		public function __construct($running = true) {
+			if($running === true){
+				$this->start();
+			}
+		return $this;
+		}
        	public function __toString(){
 			$time = (string) number_format($this->getTime(),$this->precise);
 			return $time;
