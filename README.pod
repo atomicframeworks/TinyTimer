@@ -37,7 +37,6 @@ PHP event timing has never been simpler. Using TinyTimer you can easily start, s
 
 <b>To get the time count</b>:
 <br />
-<br />
 <blockquote>
 A) Simply echo the TinyTimer (implicitly using overwritten __toString() function). <br />
 B) Or use getTime() function. <br />
