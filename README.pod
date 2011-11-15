@@ -36,13 +36,11 @@ To get the time count:
 A) Simply echo the TinyTimer (implicitly using overwritten __toString() function). <br />
 B) Or use getTime() function. <br />
 </blockquote>
+<br/>
 
+<b>Class Methods</b>:
 
-=end html
-
-Class Methods:
-
-=begin html
+<br />
 
 <blockquote>
 	start() - Start the timer. <br />
@@ -69,7 +67,11 @@ Class Methods:
 	
 You can create sub timers as properties of a parent timer using branch() and trunk(). Using trunk('name') will return the name property for chaining. Using these functions you can initialize a global timer and many sub timers at once. 
 
-Branch and Trunk Example:
+=begin html
+
+<b>Branch and Trunk Example</b>:
+
+=end html
 
 	$globalTimer = new newTinyTimer()->trunk('appStart')->branch('eventA')->branch('eventB');
 
