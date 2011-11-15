@@ -88,6 +88,6 @@ You can create sub timers as properties of a parent timer using branch() and tru
 1)	$globalTimer <br />
 2)	$globalTimer->appStart <br />
 3)	$globalTimer->appStart->eventA <br />
-4)	$globalTimer->allStart->eventB <br />
+4)	$globalTimer->appStart->eventB <br />
 
 =end html
