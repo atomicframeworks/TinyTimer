@@ -2,13 +2,14 @@
 =begin html
 
 <h1> TinyTimer - A better PHP microtimer class </h1>
+<br/>
+<br/>
+PHP event timing has never been simpler. Using TinyTimer you can easily start, stop, and even create multiple timers at once. The trick to TinyTimers flexibility is in method chaining and two factory functions. 
+<br/>
+<br/>
+<b>Create a new timer</b>:
 
 =end html
-
-PHP event timing has never been simpler. Using TinyTimer you can easily start, stop, and even create multiple timers at once. The trick to TinyTimers flexibility is in method chaining and two factory functions. 
-
-
-Create a new timer:
 
 	new TinyTimer( boolean $running* );
 
@@ -16,7 +17,7 @@ Create a new timer:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: $running is optional & defaults to true.
 <br/>
-	
+<br/>	
 <b>Create a running timer</b>:
 
 =end html
