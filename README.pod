@@ -45,13 +45,7 @@ Branch and Trunk Example:
 
 =pod
 1)	$globalTimer
-=cut
-=pod
 2)	$globalTimer->appStart
-=cut
-=pod
 3)	$globalTimer->appStart->eventA
-=cut
-=pod
 4)	$globalTimer->allStart->eventB
 =cut
