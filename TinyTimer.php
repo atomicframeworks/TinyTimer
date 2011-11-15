@@ -69,9 +69,9 @@
 				else {
 					$this->runningTime += (microtime(true) - $this->timeStart);
 					$this->timeStart = microtime(true);
-				}		
+				}
 			}
-			return $this->runningTime;
+		return $this->runningTime;
 		}
 	}
 ?>
