@@ -10,7 +10,7 @@
 			}
 		return $this;
 		}
-       	public function __toString(){
+		public function __toString(){
 			$time = (string) number_format($this->getTime(),$this->precise);
 			return $time;
 		}
