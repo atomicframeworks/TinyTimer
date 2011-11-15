@@ -9,12 +9,17 @@ PHP event timing has never been simpler. Using TinyTimer you can easily start, s
 
 
 Create a new timer:
+
 	new TinyTimer( boolean $running );
+	
 		*Note: $running is optional & defaults to true.
 	
 Running timer:
+
 	$time = new TinyTimer();
+	
 Stopped timer: 
+
 	$time = new TinyTimer(false);
 
 To get the time count:
@@ -24,11 +29,11 @@ B) Or use getTime() function.
 Methods:
 	start() - Start the timer.
 	stop() - Stop the timer.
-	restart() - Restart timing by resetting counter. 
+	restart() - Restart timing by resetting counter.
 	clear() - Stop timing and clear counter.
 	getTime() - Return the timing in microseconds.
 	precision(int $aNumber ) - Set float precision.
-	branch(string 'name', boolean $running ) - Create a new stopped timer and return parent. 
+	branch(string 'name', boolean $running ) - Create a new stopped timer and return parent.
 	trunk(string 'name', boolean $running ) - Create and return a new stopped timer.
 		*Note: $running is optional & defaults to false.
 	
