@@ -4,8 +4,8 @@ PHP event timing has never been simpler. Using TinyTimer you can easily start, s
 
 
 Create a new timer:
-	new TinyTimer( boolean $running-optional );
-		*Note: $running defaults to true
+	new TinyTimer( boolean $running );
+		*Note: $running is optional & defaults to true.
 	
 Running timer:
 	$time = new TinyTimer();
@@ -23,9 +23,9 @@ Methods:
 	clear() - Stop timing and clear counter.
 	getTime() - Return the timing in microseconds.
 	precision(int $aNumber ) - Set float precision.
-	branch(string 'name', boolean $running-optional ) - Create a new stopped timer and return parent. 
-	trunk(string 'name', boolean $running-optional ) - Create and return a new stopped timer.
-		*Note: $running defaults to false for trunk() and branch().
+	branch(string 'name', boolean $running ) - Create a new stopped timer and return parent. 
+	trunk(string 'name', boolean $running ) - Create and return a new stopped timer.
+		*Note: $running is optional & defaults to false.
 	
 Example:
 
