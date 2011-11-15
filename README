@@ -16,16 +16,16 @@ To get the time count:
 A) Simply echo the TinyTimer (implicitly using overwritten __toString() function).
 B) Or use getTime() function.
 	
-	Methods-
-		start() - Start the timer.
-		stop() - Stop the timer.
-		restart() - Restart timing by resetting counter. 
-		clear() - Stop timing and clear counter.
-		getTime() - Return the timing in microseconds.
-		precision(int $aNumber ) - Set float precision.
-		branch(string 'name', boolean $running-optional ) - Create a new stopped timer and return parent. *Note: $running defaults to false
-		trunk(string 'name', boolean $running-optional ) - Create and return a new stopped timer. *Note: $running defaults to false
-		
+Methods-
+	start() - Start the timer.
+	stop() - Stop the timer.
+	restart() - Restart timing by resetting counter. 
+	clear() - Stop timing and clear counter.
+	getTime() - Return the timing in microseconds.
+	precision(int $aNumber ) - Set float precision.
+	branch(string 'name', boolean $running-optional ) - Create a new stopped timer and return parent. *Note: $running defaults to false
+	trunk(string 'name', boolean $running-optional ) - Create and return a new stopped timer. *Note: $running defaults to false
+	
 Example:
 
 	$time = new TinyTimer();	
