@@ -1,4 +1,5 @@
-=head1 TinyTimer - A better PHP microtimer class
+=begin html
+<h1> TinyTimer - A better PHP microtimer class </h1>
 
 PHP event timing has never been simpler. Using TinyTimer you can easily start, stop, and even create multiple timers at once. The trick to TinyTimers flexibility is in method chaining and two factory functions. 
 
@@ -43,10 +44,9 @@ Branch and Trunk Example:
 
 ...would create 4 timers.
 
-=pod
-
 1)	$globalTimer
 2)	$globalTimer->appStart
 3)	$globalTimer->appStart->eventA
 4)	$globalTimer->allStart->eventB
-=cut
+
+=end html
