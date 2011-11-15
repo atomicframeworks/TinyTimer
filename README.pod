@@ -12,8 +12,6 @@ PHP event timing has never been simpler. Using TinyTimer you can easily start, s
 <blockquote>
 new TinyTimer( boolean $running* );
 </blockquote>
-<br />
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: $running is optional & defaults to true.
 <br />
 <br />
