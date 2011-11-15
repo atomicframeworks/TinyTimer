@@ -5,7 +5,7 @@ PHP event timing has never been simpler. Using TinyTimer you can easily start, s
 
 Create a new timer:
 	new TinyTimer( boolean $running-optional );
-							*Note: $running defaults to true
+		*Note: $running defaults to true
 	
 Running timer:
 	$time = new TinyTimer();
