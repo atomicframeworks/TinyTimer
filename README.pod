@@ -43,7 +43,7 @@ PHP event timing has never been simpler. Using TinyTimer you can easily start, s
 A) Simply echo the TinyTimer (implicitly using overwritten __toString() function). <br />
 B) Or use getTime() function. <br />
 </blockquote>
-<br/>
+<br />
 
 <b>Class Methods</b>:
 
