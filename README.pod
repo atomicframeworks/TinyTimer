@@ -14,24 +14,29 @@ Create a new timer:
 
 =begin html
 
-<blockquote>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: $running is optional & defaults to true.
-</blockquote>
+<br/>
+	
+<b>Create a running timer</b>:
 
 =end html
-	
-Create a running timer:
 
 	$time = new TinyTimer();
 	
-Create a stopped timer: 
+=begin html
+
+<b>Create a stopped timer</b>: 
+
+=end html
 
 	$time = new TinyTimer(false);
 
-To get the time count:
 
 =begin html
 
+<b>To get the time count</b>:
+<br />
+<br />
 <blockquote>
 A) Simply echo the TinyTimer (implicitly using overwritten __toString() function). <br />
 B) Or use getTime() function. <br />
