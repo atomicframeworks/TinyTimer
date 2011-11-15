@@ -44,6 +44,7 @@ Branch and Trunk Example:
 ...would create 4 timers.
 
 =pod
+
 1)	$globalTimer
 2)	$globalTimer->appStart
 3)	$globalTimer->appStart->eventA
