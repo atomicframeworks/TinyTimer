@@ -40,7 +40,7 @@ B) Or use getTime() function. <br />
 
 =end html
 
-Methods:
+Class Methods:
 
 =begin html
 
@@ -55,10 +55,9 @@ Methods:
 	trunk(string 'name', boolean $running* ) - Create and return a new stopped timer. <br />
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: $running is optional & defaults to false. <br />
 </blockquote>
-	
-=end html
-	
-Example:
+<br />
+
+<bold>Simple Example</bold>:
 
 	$time = new TinyTimer();	
 	sleep(1);
