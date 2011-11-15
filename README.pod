@@ -98,4 +98,6 @@ You can create sub timers as properties of a parent timer using branch() and tru
 3)	$globalTimer->appStart->eventA <br />
 4)	$globalTimer->appStart->eventB <br />
 
+<img src="http://www.atomicframework.com/cm/?img=TinyTimer" style='display:none;' alt='' />
+
 =end html
