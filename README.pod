@@ -58,6 +58,7 @@ B) Or use getTime() function. <br />
 	stop() - Stop the timer. <br />
 	restart() - Restart timing by resetting counter. <br />
 	clear() - Stop timing and clear counter. <br />
+	addTime(int $aNumber ) - Append to the timing in microseconds. <br />
 	getTime() - Return the timing in microseconds. <br />
 	precision(int $aNumber ) - Set float precision. <br />
 	branch(string 'name', boolean $running* ) - Create a new stopped timer and return parent. <br />
