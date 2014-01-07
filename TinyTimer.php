@@ -14,6 +14,10 @@
 			$time = (string) number_format($this->getTime(),$this->precise);
 			return $time;
 		}
+		public function addTime($timeAdd){
+			$this->runningTime += $timeAdd;
+			return $this;
+		}
 		public function getTime(){
 			$this->__calcTime();
 			$totalTime = $this->runningTime;
